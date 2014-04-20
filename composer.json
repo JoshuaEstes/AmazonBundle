@@ -1,0 +1,39 @@
+{
+    "name": "joshuaestes/amazon-bundle",
+    "type": "symfony-bundle",
+    "description": "Provides access to many amazon services",
+    "keywords": ["aws"],
+    "homepage": "https://github.com/JoshuaEstes/AmazonBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joshua Estes",
+            "email": "Joshua@Estes.in",
+            "homepage": "http://joshuaestes.me",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/JoshuaEstes/AmazonBundle/issues",
+        "wiki": "https://github.com/JoshuaEstes/AmazonBundle/wiki",
+        "source": "https://github.com/JoshuaEstes/AmazonBundle"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "aws/aws-sdk-php": "~2.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": { "JoshuaEstes\\Bundle\\AmazonBundle\\": "" }
+    },
+    "config": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    },
+    "archive": {
+        "exclude": ["vendor","composer.lock","composer.phar"]
+    }
+}
